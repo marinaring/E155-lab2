@@ -11,7 +11,7 @@ cModel Technology
 dC:/Program Files/Modelsim/examples
 vdig_oscillator
 Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z1 !s110 1725430177
+Z1 !s110 1725435278
 !i10b 1
 !s100 e=?hOb3VizLfNOQFdR[NQ2
 I`K:Q6=?8>UFSfgkidQ^=F0
@@ -20,14 +20,14 @@ Z2 dC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/sim
 w1725428884
 8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv
 FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv
-!i122 44
+!i122 113
 L0 7 24
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 OP;L;2022.3;75
 r1
 !s85 0
 31
-Z5 !s108 1725430177.000000
+Z5 !s108 1725435278.000000
 !s107 C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv|
 !i113 1
@@ -37,15 +37,15 @@ vlab2_mr
 R0
 R1
 !i10b 1
-!s100 8a`ojZabnjh6gb`j><AR02
-I[beX<?Z^3`SdEO=?icLnV3
+!s100 9SORL[]j^Q]fX8Q?I:]=11
+I;90WHc<k1Pd_aJ[M`2gC90
 S1
 R2
-w1725428972
+w1725434620
 8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/lab2_mr.sv
 FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/lab2_mr.sv
-!i122 45
-L0 6 23
+!i122 114
+L0 6 25
 R3
 R4
 r1
@@ -68,7 +68,7 @@ R2
 w1725427594
 8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv
 FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv
-!i122 46
+!i122 115
 L0 6 9
 R3
 R4
@@ -92,7 +92,7 @@ R2
 w1725430168
 8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv
 FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv
-!i122 47
+!i122 116
 L0 6 41
 R3
 R4
@@ -116,7 +116,7 @@ R2
 w1725234488
 8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv
 FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv
-!i122 48
+!i122 117
 L0 6 27
 R3
 R4
@@ -133,15 +133,15 @@ vseg_multiplexer
 R0
 R1
 !i10b 1
-!s100 MPzk2;=G3L0?9;3066U[`1
-I1;Z]VQzBk7d25Ci8[C8cj0
+!s100 ^jZ1R7M8=<^bk^8Haadz:0
+I>cl7DE7C8RH_QJI[9]X]z0
 S1
 R2
-w1725428864
+w1725435124
 8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer.sv
 FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer.sv
-!i122 49
-L0 8 36
+!i122 118
+L0 8 37
 R3
 R4
 r1
@@ -150,6 +150,30 @@ r1
 R5
 !s107 C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer.sv|
+!i113 1
+R6
+R7
+vseg_multiplexer_testbench
+R0
+R1
+!i10b 1
+!s100 3maX0NFGfMF?`DFJEW?AH1
+I`_[TXOhNC0mbQ;K]MHed00
+S1
+R2
+w1725435274
+8C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv
+FC:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv
+!i122 119
+L0 6 43
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv|
 !i113 1
 R6
 R7
