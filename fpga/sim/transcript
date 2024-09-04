@@ -1,0 +1,118 @@
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 2 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv failed with 3 errors.
+# 6 compiles, 3 failed with 6 errors.
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv failed with 2 errors.
+# 6 compiles, 3 failed with 4 errors.
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv failed with 2 errors.
+# 6 compiles, 3 failed with 4 errors.
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv failed with 1 errors.
+# 6 compiles, 3 failed with 3 errors.
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv failed with 2 errors.
+# 6 compiles, 3 failed with 4 errors.
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv failed with 3 errors.
+# 6 compiles, 3 failed with 5 errors.
+# Compile of dig_oscillator.sv failed with 1 errors.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of dig_oscillator.sv was successful.
+# Compile of lab2_mr.sv failed with 1 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of dig_oscillator.sv was successful.
+# Compile of lab2_mr.sv failed with 2 errors.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of dig_oscillator.sv was successful.
+# Compile of lab2_mr.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of dig_oscillator.sv was successful.
+# Compile of lab2_mr.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.led_controller_testbench
+# vsim -gui work.led_controller_testbench 
+# Start time: 23:08:31 on Sep 03,2024
+# //  ModelSim DE-64 2022.3 Jul 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.led_controller_testbench
+# Loading work.led_controller
+add wave -position end  sim:/led_controller_testbench/clk
+add wave -position end  sim:/led_controller_testbench/reset
+add wave -position end  sim:/led_controller_testbench/s
+add wave -position end  sim:/led_controller_testbench/led
+add wave -position end  sim:/led_controller_testbench/led_expected
+run 200
+# Compile of dig_oscillator.sv was successful.
+# Compile of lab2_mr.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.led_controller_testbench
+# Loading work.led_controller
+run 300
+#         13 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv(43)
+#    Time: 145 ns  Iteration: 1  Instance: /led_controller_testbench
+# Break in Module led_controller_testbench at C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv line 43
