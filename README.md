@@ -1,0 +1,1 @@
+This is the code for my Lab 2 in Microprocessor systems. In this lab, I learn how to implement time multiplexing on an FPGA in order to reduce the number of I/O outputs. 
