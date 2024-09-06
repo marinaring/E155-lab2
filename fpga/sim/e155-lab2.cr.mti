@@ -12,6 +12,13 @@ Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
 Top level modules:
 	lab2_mr
 
+} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv}
+Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
+-- Compiling module dig_oscillator
+
+Top level modules:
+	dig_oscillator
+
 } {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv}
 Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
 -- Compiling module led_controller_testbench
@@ -19,12 +26,12 @@ Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
 Top level modules:
 	led_controller_testbench
 
-} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/dig_oscillator.sv}
+} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv}
 Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
--- Compiling module dig_oscillator
+-- Compiling module led_controller
 
 Top level modules:
-	dig_oscillator
+	led_controller
 
 } {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv}
 Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
@@ -33,11 +40,11 @@ Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
 Top level modules:
 	seg_logic
 
-} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv}
+} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv}
 Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
--- Compiling module led_controller
+-- Compiling module seg_multiplexer_testbench
 
 Top level modules:
-	led_controller
+	seg_multiplexer_testbench
 
 } {} {}}
