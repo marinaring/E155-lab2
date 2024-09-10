@@ -19,12 +19,12 @@ Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
 Top level modules:
 	dig_oscillator
 
-} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv}
+} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv}
 Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
--- Compiling module seg_logic
+-- Compiling module led_controller_testbench
 
 Top level modules:
-	seg_logic
+	led_controller_testbench
 
 } {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller.sv}
 Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
@@ -32,5 +32,19 @@ Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
 
 Top level modules:
 	led_controller
+
+} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_logic.sv}
+Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
+-- Compiling module seg_logic
+
+Top level modules:
+	seg_logic
+
+} {} {}} {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv}
+Model Technology ModelSim DE-64 vlog 2022.3 Compiler 2022.07 Jul 18 2022
+-- Compiling module seg_multiplexer_testbench
+
+Top level modules:
+	seg_multiplexer_testbench
 
 } {} {}}

@@ -1,83 +1,14 @@
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 2 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv failed with 3 errors.
-# 6 compiles, 3 failed with 6 errors.
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv failed with 2 errors.
-# 6 compiles, 3 failed with 4 errors.
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv failed with 2 errors.
-# 6 compiles, 3 failed with 4 errors.
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv failed with 1 errors.
-# 6 compiles, 3 failed with 3 errors.
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv failed with 2 errors.
-# 6 compiles, 3 failed with 4 errors.
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv failed with 3 errors.
-# 6 compiles, 3 failed with 5 errors.
-# Compile of dig_oscillator.sv failed with 1 errors.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv was successful.
-# 6 compiles, 2 failed with 2 errors.
-# Compile of dig_oscillator.sv was successful.
-# Compile of lab2_mr.sv failed with 1 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv was successful.
-# 6 compiles, 1 failed with 1 error.
-# Compile of dig_oscillator.sv was successful.
-# Compile of lab2_mr.sv failed with 2 errors.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv was successful.
-# 6 compiles, 1 failed with 2 errors.
 # Compile of dig_oscillator.sv was successful.
 # Compile of lab2_mr.sv was successful.
 # Compile of led_controller.sv was successful.
 # Compile of led_controller_testbench.sv was successful.
 # Compile of seg_logic.sv was successful.
 # Compile of seg_multiplexer.sv was successful.
-# 6 compiles, 0 failed with no errors.
-# Compile of dig_oscillator.sv was successful.
-# Compile of lab2_mr.sv was successful.
-# Compile of led_controller.sv was successful.
-# Compile of led_controller_testbench.sv was successful.
-# Compile of seg_logic.sv was successful.
-# Compile of seg_multiplexer.sv was successful.
-# 6 compiles, 0 failed with no errors.
+# Compile of seg_multiplexer_testbench.sv was successful.
+# 7 compiles, 0 failed with no errors.
 vsim -gui work.led_controller_testbench
 # vsim -gui work.led_controller_testbench 
-# Start time: 23:08:31 on Sep 03,2024
+# Start time: 21:47:45 on Sep 05,2024
 # //  ModelSim DE-64 2022.3 Jul 18 2022
 # //
 # //  Copyright 1991-2022 Mentor Graphics Corporation
@@ -99,20 +30,65 @@ add wave -position end  sim:/led_controller_testbench/reset
 add wave -position end  sim:/led_controller_testbench/s
 add wave -position end  sim:/led_controller_testbench/led
 add wave -position end  sim:/led_controller_testbench/led_expected
-run 200
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mring  Hostname: GGMZ0R3  ProcessID: 15520
+#           Attempting to use alternate WLF file "./wlftczshrg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftczshrg
+run 300
+#         13 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv(43)
+#    Time: 145 ns  Iteration: 1  Instance: /led_controller_testbench
+# Break in Module led_controller_testbench at C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv line 43
 # Compile of dig_oscillator.sv was successful.
 # Compile of lab2_mr.sv was successful.
 # Compile of led_controller.sv was successful.
 # Compile of led_controller_testbench.sv was successful.
 # Compile of seg_logic.sv was successful.
 # Compile of seg_multiplexer.sv was successful.
-# 6 compiles, 0 failed with no errors.
-restart -f
+# Compile of seg_multiplexer_testbench.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f; run 300
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.led_controller_testbench
 # Loading work.led_controller
-run 300
 #         13 tests completed with          0 errors
 # ** Note: $stop    : C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv(43)
 #    Time: 145 ns  Iteration: 1  Instance: /led_controller_testbench
 # Break in Module led_controller_testbench at C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/led_controller_testbench.sv line 43
+# Compile of dig_oscillator.sv was successful.
+# Compile of lab2_mr.sv was successful.
+# Compile of led_controller.sv was successful.
+# Compile of led_controller_testbench.sv was successful.
+# Compile of seg_logic.sv was successful.
+# Compile of seg_multiplexer.sv was successful.
+# Compile of seg_multiplexer_testbench.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.seg_multiplexer_testbench
+# End time: 22:22:53 on Sep 05,2024, Elapsed time: 0:35:08
+# Errors: 0, Warnings: 2
+# vsim -gui work.seg_multiplexer_testbench 
+# Start time: 22:22:53 on Sep 05,2024
+# Loading sv_std.std
+# Loading work.seg_multiplexer_testbench
+# Loading work.seg_multiplexer
+# Loading work.seg_logic
+add wave -position end  sim:/seg_multiplexer_testbench/clk
+add wave -position end  sim:/seg_multiplexer_testbench/reset
+add wave -position end  sim:/seg_multiplexer_testbench/s
+add wave -position end  sim:/seg_multiplexer_testbench/seg
+add wave -position end  sim:/seg_multiplexer_testbench/seg_expected
+add wave -position end  sim:/seg_multiplexer_testbench/multi_switch
+add wave -position end  sim:/seg_multiplexer_testbench/multi_switch_expected
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mring  Hostname: GGMZ0R3  ProcessID: 15520
+#           Attempting to use alternate WLF file "./wlftz5ehy1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz5ehy1
+run 500
+#         40 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv(46)
+#    Time: 415 ns  Iteration: 1  Instance: /seg_multiplexer_testbench
+# Break in Module seg_multiplexer_testbench at C:/Users/mring/Documents/MicroPs/Lab 2/E155-lab2/fpga/radiant_project/e155_lab2/source/impl_1/seg_multiplexer_testbench.sv line 46
+# End time: 22:24:40 on Sep 05,2024, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 3
