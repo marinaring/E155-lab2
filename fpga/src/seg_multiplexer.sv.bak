@@ -15,7 +15,7 @@ module seg_multiplexer(
 );
 	logic [6:0] seg1, seg2;
 	logic state, nextstate;
-	logic [11:0] counter;
+	logic [10:0] counter;
 	
 	// Decode each digit into the appropriate display values
 	seg_logic digit1(s[7:4], seg1);
