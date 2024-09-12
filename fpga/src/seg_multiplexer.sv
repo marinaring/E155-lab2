@@ -10,16 +10,12 @@ module seg_multiplexer(
 	input   logic reset,
     input   logic [7:0] s,
 	output  logic multi_switch,
-	output  logic [6:0] seg
+	output  logic [3:0] sout
 
 );
 	logic [6:0] seg1, seg2;
 	logic state, nextstate;
-	logic [11:0] counter;
-	
-	// Decode each digit into the appropriate display values
-	seg_logic digit1(s[7:4], seg1);
-	seg_logic digit2(s[3:0], seg2);
+	logic [15:0] counter;
 	
 	// register 
 	always_ff @(posedge clk) begin
@@ -46,6 +42,6 @@ module seg_multiplexer(
 	// state 0 => first digit
 	// state 1 => second digit
 	assign multi_switch = state;
-	assign seg = (state ? seg2 : seg1);
+	assign sout = (state ? s[3:0] : s[7:4]);
 	
 endmodule

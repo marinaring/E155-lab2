@@ -13,6 +13,7 @@ module lab2_mr(
 	
 	logic multi_switch; 
 	logic [6:0] not_seg;
+	logic [3:0] s_seg;
 	
 	// dig_oscillator clk_generator(reset, m_clk);
 	
@@ -24,8 +25,9 @@ module lab2_mr(
 	
 
 	// output logic
-	seg_multiplexer seg_display(int_osc, reset, s, multi_switch, not_seg);
+	seg_multiplexer seg_display(int_osc, reset, s, multi_switch, s_seg);
 	led_controller led_display(reset, s, led);
+	seg_logic digit1(s_seg, not_seg);
 		
 
 	// turning a pin on corresponds to turning a segment off, so we need to switch all bits.
